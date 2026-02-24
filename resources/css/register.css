@@ -1,0 +1,232 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .logo img {
+    width: 100%;         /* spans the whole top */
+    max-height: 180px;   /* controls vertical size */
+    object-fit: contain; /* keeps proportions */
+    display: block;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .form-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+
+  .form-card input,
+  .form-card select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  button {
+    padding: 12px;
+    background: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #005fa3;
+  }
+
+  .alert.success {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .alert.error {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .user-table table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* ensures consistent column widths */
+  }
+
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+  }
+
+  .user-table th {
+    background: #f4f4f4;
+  }
+
+  /* Column width definitions */
+  .user-table th:nth-child(1),
+  .user-table td:nth-child(1) {
+    width: 5%;   /* No */
+  }
+
+  .user-table th:nth-child(2),
+  .user-table td:nth-child(2) {
+    width: 15%;  /* User ID */
+  }
+
+  .user-table th:nth-child(3),
+  .user-table td:nth-child(3) {
+    width: 20%;  /* User Name */
+  }
+
+  .user-table th:nth-child(4),
+  .user-table td:nth-child(4) {
+    width: 20%;  /* Branch */
+  }
+
+  .user-table th:nth-child(5),
+  .user-table td:nth-child(5) {
+    width: 20%;  /* User Level */
+  }
+
+  .user-table th:nth-child(6),
+  .user-table td:nth-child(6) {
+    width: 10%;  /* Delete */
+  }
+
+  .btn-danger {
+    background: #dc3545;
+    color: #fff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .btn-danger:hover {
+    background: #c82333;
+  }
+
+  .form-section {
+    border: 2px solid #0077cc;   /* blue border */
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;            /* keeps it centered and neat */
+    background: #fafafa;         /* light background inside */
+  }
+
+  .form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #0077cc;
+  }
+
+  /* Center the form card */
+.form-card {
+    max-width: 600px;       /* controls overall width */
+    margin: 0 auto 30px;    /* centers horizontally */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Each row: label + input aligned */
+  .form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Label styling */
+  .form-row label {
+    flex: 0 0 150px;        /* fixed width for labels */
+    font-weight: 500;
+    color: #333;
+  }
+
+  /* Input and select styling */
+  .form-row input,
+  .form-row select {
+    flex: 1;                /* take remaining space */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  /* Button centered under form */
+  .form-card button {
+    align-self: center;
+    padding: 10px 20px;
+    background: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .form-card button:hover {
+    background: #005fa3;
+  }
+
+  h2 {
+    text-align: center;      /* centers the heading */
+    margin-bottom: 25px;     /* spacing below */
+    font-size: 28px;         /* larger size */
+    font-weight: 600;        /* bold */
+    color: #0077cc;          /* matches your button color for branding */
+    letter-spacing: 1px;     /* slight spacing for a clean look */
+    text-transform: uppercase; /* makes "USER Registration" consistent */
+  }
+
+  .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .remember-me label {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+  }
+
+  .remember-me input[type="checkbox"] {
+    margin-right: 8px;
+  }
+
+
+
